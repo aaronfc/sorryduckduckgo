@@ -8,6 +8,7 @@ try:
 except Exception:
     pass
 
+# Sample usage
 duck = SorryDuckDuckGo(are_you_sorry=True)
 for result in duck.search("DuckDuckGo is awesome"):
     print "{} [{}]".format(result.text, result.link)
